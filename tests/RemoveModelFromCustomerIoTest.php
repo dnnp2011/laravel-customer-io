@@ -1,6 +1,6 @@
 <?php
 
-namespace Steadfastcollective\LaravelCustomerIo\Tests;
+namespace Tether\LaravelCustomerIo\Tests;
 
 use Orchestra\Testbench\TestCase;
 

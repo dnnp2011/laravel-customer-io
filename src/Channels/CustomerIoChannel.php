@@ -1,6 +1,6 @@
 <?php
 
-namespace Steadfastcollective\LaravelCustomerIo\Channels;
+namespace Tether\LaravelCustomerIo\Channels;
 
 use Customerio\Client as CustomerIoClient;
 use Illuminate\Notifications\Notification;

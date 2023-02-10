@@ -1,19 +1,23 @@
 {
-    "name": "steadfastcollective/laravel-customer-io",
-    "description": "Customer.io notification channel for Laravel",
+    "name": "dnnp2011/laravel-customer-io",
+    "description": "Customer.io notification channel for Laravel - Compatible with Laravel 9",
     "keywords": [
-        "steadfastcollective",
         "laravel-customer-io",
         "laravel",
         "customer.io"
     ],
-    "homepage": "https://github.com/steadfastcollective/laravel-customer-io",
+    "homepage": "https://github.com/dnnp2011/laravel-customer-io",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "André Breia",
             "email": "andre@steadfastcollective.com",
+            "role": "Original Developer"
+        },
+        {
+            "name": "Dalton Pierce",
+            "email": "dalton@tethered.dev",
             "role": "Developer"
         }
     ],
@@ -29,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Steadfastcollective\\LaravelCustomerIo\\": "src"
+            "Tether\\LaravelCustomerIo\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Steadfastcollective\\LaravelCustomerIo\\Tests\\": "tests"
+            "Tether\\LaravelCustomerIo\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Steadfastcollective\\LaravelCustomerIo\\LaravelCustomerIoServiceProvider"
+                "Tether\\LaravelCustomerIo\\LaravelCustomerIoServiceProvider"
             ],
             "aliases": {
-                "LaravelCustomerIo": "Steadfastcollective\\LaravelCustomerIo\\LaravelCustomerIoFacade"
+                "LaravelCustomerIo": "Tether\\LaravelCustomerIo\\LaravelCustomerIoFacade"
             }
         }
     }

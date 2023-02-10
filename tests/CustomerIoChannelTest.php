@@ -1,19 +1,19 @@
 <?php
 
-namespace Steadfastcollective\LaravelCustomerIo\Tests;
+namespace Tether\LaravelCustomerIo\Tests;
 
 use Customerio\Client as CustomerIoClient;
 use Illuminate\Notifications\Notification;
 use Mockery;
 use Orchestra\Testbench\TestCase;
-use Steadfastcollective\LaravelCustomerIo\Channels\CustomerIoChannel;
+use Tether\LaravelCustomerIo\Channels\CustomerIoChannel;
 
 class CustomerIoChannelTest extends TestCase
 {
     /** @var Mockery\Mock */
     protected $customerIo;
 
-    /** @var \Steadfastcollective\LaravelCustomerIo\Channels\CustomerIoChannel */
+    /** @var \Tether\LaravelCustomerIo\Channels\CustomerIoChannel */
     protected $channel;
 
     public function setUp(): void

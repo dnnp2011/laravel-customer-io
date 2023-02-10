@@ -1,6 +1,6 @@
 <?php
 
-namespace Steadfastcollective\LaravelCustomerIo\Commands;
+namespace Tether\LaravelCustomerIo\Commands;
 
 use Illuminate\Console\Command;
 

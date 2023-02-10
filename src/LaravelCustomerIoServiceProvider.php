@@ -1,10 +1,10 @@
 <?php
 
-namespace Steadfastcollective\LaravelCustomerIo;
+namespace Tether\LaravelCustomerIo;
 
 use Customerio\Client as CustomerIoClient;
 use Illuminate\Support\ServiceProvider;
-use Steadfastcollective\LaravelCustomerIo\Commands\SyncCustomersCommand;
+use Tether\LaravelCustomerIo\Commands\SyncCustomersCommand;
 
 class LaravelCustomerIoServiceProvider extends ServiceProvider
 {

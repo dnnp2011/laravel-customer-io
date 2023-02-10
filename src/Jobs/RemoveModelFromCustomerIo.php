@@ -1,6 +1,6 @@
 <?php
 
-namespace Steadfastcollective\LaravelCustomerIo\Jobs;
+namespace Tether\LaravelCustomerIo\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

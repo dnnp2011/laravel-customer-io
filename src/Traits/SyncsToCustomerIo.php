@@ -1,11 +1,11 @@
 <?php
 
-namespace Steadfastcollective\LaravelCustomerIo\Traits;
+namespace Tether\LaravelCustomerIo\Traits;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Str;
-use Steadfastcollective\LaravelCustomerIo\Jobs\RemoveModelFromCustomerIo;
-use Steadfastcollective\LaravelCustomerIo\Jobs\SyncModelToCustomerIo;
+use Tether\LaravelCustomerIo\Jobs\RemoveModelFromCustomerIo;
+use Tether\LaravelCustomerIo\Jobs\SyncModelToCustomerIo;
 
 trait SyncsToCustomerIo
 {
