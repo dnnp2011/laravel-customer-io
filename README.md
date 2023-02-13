@@ -1,10 +1,5 @@
 # Customer io notification channel for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/steadfastcollective/laravel-customer-io.svg?style=flat-square)](https://packagist.org/packages/steadfastcollective/laravel-customer-io)
-[![Build Status](https://travis-ci.com/steadfast-collective/laravel-customer-io.svg?branch=master)](https://travis-ci.com/steadfast-collective/laravel-customer-io)
-[![Total Downloads](https://img.shields.io/packagist/dt/steadfastcollective/laravel-customer-io.svg?style=flat-square)](https://packagist.org/packages/steadfastcollective/laravel-customer-io)
-[![StyleCI](https://github.styleci.io/repos/279264881/shield?branch=master)](https://github.styleci.io/repos/279264881?branch=master)
-
 This package makes it easy to send notifications using the Customer io API with Laravel.
 
 ## About
@@ -13,11 +8,7 @@ The Customer io channel makes it possible to send out Laravel notifications as a
 
 ## Installation
 
-You can install the package via composer:
-
-```bash
-composer require steadfastcollective/laravel-customer-io
-```
+Setup locally in packages
 
 ## Setting up the Customer io service
 You will need to create a Customer io account to use this channel. Within your account, you will find the API key and the site ID. Place them inside your .env file:
@@ -34,7 +25,7 @@ CUSTOMER_IO_MODEL=App\User
 Add the trait to your notifiable model:
 
 ``` php
-use Steadfastcollective\LaravelCustomerIo\Traits\SyncsToCustomerIo;
+use Tether\LaravelCustomerIo\Traits\SyncsToCustomerIo;
 
 class User extends Authenticatable
 {
@@ -48,7 +39,7 @@ class User extends Authenticatable
 Adding customer io support to the notification class:
 
 ``` php
-use Steadfastcollective\LaravelCustomerIo\Channels\CustomerIoChannel;
+use Tether\LaravelCustomerIo\Channels\CustomerIoChannel;
 ```
 ``` php
     /**
