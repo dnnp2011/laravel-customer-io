@@ -1,5 +1,5 @@
 {
-    "name": "dnnp2011/laravel-customer-io",
+    "name": "tether/laravel-customer-io",
     "description": "Customer.io notification channel for Laravel - Compatible with Laravel 9",
     "keywords": [
         "laravel-customer-io",
